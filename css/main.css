@@ -9,3 +9,11 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+
+:root {
+    --blue-sapphire: #05668D;
+    --steel-blue: #427AA1;
+    --alice-blue: #EBF2FA;
+    --maximum-green: #679436;
+    --acid-green: #A5BE00;
+}
