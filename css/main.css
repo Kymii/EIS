@@ -27,6 +27,9 @@ a {
     color: var(--acid-green);
 }
 
+p {
+    opacity: 0.8;
+}
 /* mobile menu  */
 .nav-links {
     color: white;
@@ -43,7 +46,7 @@ a {
 
 .open-nav {
     color: white;
-    position: fixed;
+    position: absolute;
     top: 25px;
     right: 10px;
 }
@@ -52,12 +55,18 @@ a {
 .mobile {
     margin: auto;
     height: 100vh;
-    transform: translateX(-100%);
-    transition: transform .3s ease-in-out;
+    transition: all 0.3s ease;
+    transform: scale(0);
+    overflow: hidden;
+    display: none;
 }
 
  .visible {
-    transform: translateX(0);
+    width: 100vw;
+    display: block;
+    position: absolute;
+    opacity: .8;
+    transform: scale(1);
 }
 
 .close-nav {
@@ -67,6 +76,7 @@ a {
     top: 25px;
     right: 10px;
     display: none;
+    z-index: 2;
 }
 
 .logo {
@@ -82,7 +92,6 @@ a {
 .nav ul {
     text-align: center;
     background-color: var(--blue-sapphire);
-    opacity: 0.3;
     height: 100vh;
 }
 
@@ -91,3 +100,72 @@ a {
     padding-top: 20px;
 }
 
+/* home styles  */
+
+.home-image {
+    width: 375px;
+    height: 389px;
+}
+
+.heading-one {
+    color: var(--blue-sapphire);
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.home-paragraph,
+.heading-one {
+    margin: 10px 15px;
+}
+
+.schedule-appointment-btn {
+    text-align: center;
+    margin: 35px 0px;
+}
+
+.appointment-btn {
+    color: white;
+    background-color: var(--acid-green);
+    border: none;
+    border-radius: 20px;
+    width: 197px;
+    height: 39px;
+    font-size: 16px;
+}
+
+/* product cards  */
+.product-card {
+    margin: auto;
+    width: 308px;
+    height: 200px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-container {
+    position: relative;
+    top: 25px;
+}
+
+
+.product-card p {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.product-icon {
+    font-size: 82px;
+    margin: 10px 0px;
+}
+
+.green {
+    color: var(--acid-green);
+}
+
+.blue {
+    color: var(--steel-blue);
+}
