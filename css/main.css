@@ -112,10 +112,12 @@ p {
     font-size: 28px;
     font-weight: 300;
     text-align: center;
+    padding: 20px 0px;
 }
 
 .home-paragraph,
-.heading-one {
+.heading-one,
+#about {
     margin: 10px 15px;
 }
 
@@ -168,4 +170,17 @@ p {
 
 .blue {
     color: var(--steel-blue);
+}
+
+/* about section  */
+
+#about p,
+.about-image {
+    margin: 20px 0px;
+}
+
+
+#about h2 {
+    text-align: center;
+    margin: 10px 0px;
 }
