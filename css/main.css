@@ -325,3 +325,21 @@ p {
     text-align: center;
     margin: 20px;
 }
+
+/* footer section  */
+
+#footer {
+    text-align: center;
+    color: var(--blue-sapphire);
+}
+
+.footer-logo {
+    margin: 10px;
+}
+
+.info {
+    margin: 25px 70px;
+    line-height: 149.4%;
+    text-align: left;
+}
+
