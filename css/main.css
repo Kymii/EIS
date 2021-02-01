@@ -185,3 +185,33 @@ p {
     margin: 10px 0px;
     color: var(--blue-sapphire);
 }
+
+.about-para p {
+    margin-bottom: 0px 40px 20px 40px;
+}
+
+/* testimonials section  */
+
+.testimonials-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(235, 235, 235, 0.5);
+}
+
+.testimonial {
+    font-size: 16px;
+    height: 280px;
+    width: 80vw;
+    margin: 10px;
+    padding: 40px 20px 20px;
+    background: white;
+}
+
+.testimonial-img {
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+}
