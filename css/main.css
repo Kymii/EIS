@@ -132,7 +132,8 @@ p {
     margin: 35px 0px;
 }
 
-.appointment-btn {
+.appointment-btn,
+.form-submit {
     color: white;
     background-color: var(--acid-green);
     border: none;
@@ -207,7 +208,7 @@ p {
 /* testimonials section  */
 
 .testimonials-container {
-    min-height: 50vh;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,4 +281,47 @@ p {
 .next:hover {
     cursor: pointer;
     transform: translateY(-4px);
+}
+
+/* contact form  */
+
+.form-container {
+    background-color: var(--blue-sapphire);
+    height: 80vh;
+    padding-top: 50px;
+}
+
+.heading-form {
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    border-radius: 5px;
+    border: none;
+    width: 254px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.contact-form input {
+    width: 254px;
+    height: 35px;
+}
+
+.form-btn {
+    text-align: center;
+    margin: 20px;
 }
