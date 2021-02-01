@@ -108,7 +108,7 @@ p {
 }
 
 .home-image {
-    width: 375px;
+    width: 100vw;
     height: 389px;
 }
 
@@ -180,12 +180,17 @@ p {
 
 /* about section  */
 
+#about {
+    margin-bottom: 50px;
+}
+
 #about p,
 .about-image {
     margin: 20px 0px;
 }
 
-.about-image-container {
+.about-image-container,
+.about-para p {
    text-align: center;
 }
 
@@ -202,7 +207,7 @@ p {
 /* testimonials section  */
 
 .testimonials-container {
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
