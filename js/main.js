@@ -14,3 +14,8 @@ mobile_menu_close_btn.addEventListener('click', () => {
     mobile_menu_open_btn.style.display = 'block';
 })
 
+nav.addEventListener('click', () => {
+    nav.classList.remove('visible');
+    mobile_menu_close_btn.style.display = 'none';
+    mobile_menu_open_btn.style.display = 'block';
+})
