@@ -55,7 +55,6 @@ p {
 .mobile {
     margin: auto;
     height: 100vh;
-    transition: all 0.3s ease;
     transform: scale(0);
     overflow: hidden;
     display: none;
@@ -63,6 +62,7 @@ p {
 
  .visible {
     width: 100vw;
+    height: 100vh;
     display: block;
     position: absolute;
     opacity: .8;
