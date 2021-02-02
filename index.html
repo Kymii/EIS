@@ -24,9 +24,23 @@
        </button>
 
        <!-- logo image  -->
-       <div class="logo">
-            <img class="eis-logo" src="images/Header-logo.png" alt="EIS logo" class="eis-logo">
-       </div>
+       
+            <div class="header">
+                <div class="header-img">
+                    <img class="eis-logo" src="images/Header-logo.png" alt="EIS logo" class="eis-logo">
+                </div>
+                <div class="desktop-menu-container">
+                    <ul class="desktop">
+                        <li><a class="nav-links-d" href="#home">Home</a></li>
+                        <li><a class="nav-links-d" href="#products">Products</a></li>
+                        <li><a class="nav-links-d" href="#about">About</a></li>
+                        <li><a class="nav-links-d" href="#testimonials">Testimonials</a></li>
+                        <!-- <li><a class="nav-links-d" href="#contact">Contact</a></li> -->
+                        <li><a class="nav-links-d" href="#contact"><button class="call">Call Today!</button></a></li>
+                    </ul>
+                </div>
+            </div>
+        
 
        <div class="mobile">
            <div class="moblie-menu-container">
@@ -38,7 +52,7 @@
                         <li><a class="nav-links" href="#products">Products</a></li>
                         <li><a class="nav-links" href="#about">About</a></li>
                         <li><a class="nav-links" href="#testimonials">Testimonials</a></li>
-                        <li><a class="nav-links" href="#">Contact</a></li>
+                        <li><a class="nav-links" href="#contact">Contact</a></li>
                     </ul>
                 </nav>
            </div>
@@ -51,68 +65,73 @@
            <div class="home-image-container">
                <img class="home-image" src="images/oldcouple.png" alt="older-couple">
            </div>
+           
+           <div class="greeting">
+                <div class="heading-one">
+                    <h1>I'm here to help you plan for your future</h1>
+                </div>
 
-           <div class="heading-one">
-               <h1>I'm here to help you plan for your future</h1>
-           </div>
+                <div class="home-paragraph">
+                    <p>Insurance proceeds are a great way to pay off debts of a deseased loved one, funeral expenses, and income or estate taxes. If you have young children you want to plan for their future, and even if you don't, you wouldn't want to leave a financial burden on others. That's where I come in, I can help you find the right insurance for your needs. Even if you have a serious illness or lack financial stability, there's insurance for you.</p> <br>
 
-           <div class="home-paragraph">
-               <p>Insurance proceeds are a great way to pay off debts of a deseased loved one, funeral expenses, and income or estate taxes. If you have young children you want to plan for their future, and even if you don't, you wouldn't want to leave a financial burden on others. That's where I come in, I can help you find the right insurance for your needs. Even if you have a serious illness or lack financial stability, there's insurance for you.</p> <br>
+                    <p>No one really wants to think about life insurance, but if someone depends on you financially, it’s a topic you can’t avoid.</p>
+                </div>
+           
 
-               <p>No one really wants to think about life insurance, but if someone depends on you financially, it’s a topic you can’t avoid.</p>
-           </div>
-
-           <div class="schedule-appointment-btn">
-               <button class="appointment-btn" type="submit">Schedule Appointment!</button>
-           </div>
+                <div class="schedule-appointment-btn">
+                    <button class="appointment-btn" type="submit">Schedule Appointment!</button>
+                </div>
+            </div>
        </section>
 
-
+        <!-- product section  -->
        <section id="products" class="products">
 
            <div class="heading-one">
             <h1>Our Products</h1>
            </div>
 
-           <div id="card-one" class="product-card">
-               <div class="card-container">
-                <i class="fas fa-calendar-alt product-icon green"></i>
-                <p>Term Insurance</p>
-               </div>
-           </div>
-
-           <div id="card-two" class="product-card">
-            <div class="card-container">
-                <i class="fas fa-money-check-alt product-icon blue"></i>
-                <p>Burial/Final Expense</p>
-            </div>
-            </div>
-
-            <div id="card-three" class="product-card">
-                <div class="card-container">
-                    <i class="fas fa-house-damage product-icon"></i>
-                    <p>Renters Insurance</p>
+           <div class="card-desktop-grid">
+                <div id="card-one" class="product-card">
+                    <div class="card-container">
+                        <i class="fas fa-calendar-alt product-icon green"></i>
+                        <p>Term Insurance</p>
+                    </div>
                 </div>
-            </div>
-
-            <div id="card-three" class="product-card">
+                
+                <div id="card-two" class="product-card">
                 <div class="card-container">
-                    <i class="fas fa-notes-medical product-icon green"></i>
-                    <p>Medicare Advantage</p>
+                    <i class="fas fa-money-check-alt product-icon blue"></i>
+                    <p>Burial/Final Expense</p>
                 </div>
-            </div>
-
-            <div id="card-three" class="product-card">
-                <div class="card-container">
-                    <i class="fas fa-hand-holding-heart product-icon blue"></i>
-                    <p>Whole Life/IUL/GUL</p>
                 </div>
-            </div>
 
-            <div id="card-three" class="product-card">
-                <div class="card-container">
-                    <i class="fas fa-car product-icon"></i>
-                    <p>Auto Insurance</p><br>
+                <div id="card-three" class="product-card">
+                    <div class="card-container">
+                        <i class="fas fa-house-damage product-icon"></i>
+                        <p>Renters Insurance</p>
+                    </div>
+                </div>
+
+                <div id="card-three" class="product-card">
+                    <div class="card-container">
+                        <i class="fas fa-notes-medical product-icon green"></i>
+                        <p>Medicare Advantage</p>
+                    </div>
+                </div>
+
+                <div id="card-three" class="product-card">
+                    <div class="card-container">
+                        <i class="fas fa-hand-holding-heart product-icon blue"></i>
+                        <p>Whole Life/IUL/GUL</p>
+                    </div>
+                </div>
+
+                <div id="card-three" class="product-card">
+                    <div class="card-container">
+                        <i class="fas fa-car product-icon"></i>
+                        <p>Auto Insurance</p><br>
+                    </div>
                 </div>
             </div>
             
@@ -127,24 +146,25 @@
 
             <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur.</p>
 
-            <div id="about-image-one" class="about-image-container">
-                <img class="about-image" src="images/PinClipart-one.png" alt="Image-one">
-            </div>
+            <div class="about-grid">
+                <div id="about-image-one" class="about-image-container">
+                    <img class="about-image" src="images/PinClipart-one.png" alt="Image-one">
+                </div>
 
-            <div id="para-one" class="about-para">
-                <h2>Title</h2>
-                <p>Nunc quis fermentum neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed dictum luctus leo, sit amet facilisis tellus dictum in. Donec sed consectetur massa. Phasellus hendrerit suscipit justo eget tincidunt. </p>
-            </div>
+                <div id="para-one" class="about-para">
+                    <h2>Title</h2>
+                    <p>Nunc quis fermentum neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed dictum luctus leo, sit amet facilisis tellus dictum in. Donec sed consectetur massa. Phasellus hendrerit suscipit justo eget tincidunt. </p>
+                </div>
 
-            <div id="about-image-two" class="about-image-container">
-                <img class="about-image" src="images/PinClipart-two.png" alt="">
+                <div id="about-image-two" class="about-image-container">
+                    <img class="about-image" src="images/PinClipart-two.png" alt="">
+                </div>
+                
+                <div id="para-two" class="about-para">
+                    <h2>Title</h2>
+                    <p>Nunc quis fermentum neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed dictum luctus leo, sit amet facilisis tellus dictum in. Donec sed consectetur massa. Phasellus hendrerit suscipit justo eget tincidunt. </p>
+                </div>
             </div>
-            
-            <div id="para-two" class="about-para">
-                <h2>Title</h2>
-                <p>Nunc quis fermentum neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed dictum luctus leo, sit amet facilisis tellus dictum in. Donec sed consectetur massa. Phasellus hendrerit suscipit justo eget tincidunt. </p>
-            </div>
-
        </section>
 
        <!-- testimonials section  -->
@@ -189,10 +209,10 @@
 
        <section id="contact">
            <div class="form-container">
-                <form action="" class="contact-form">
-                        <div class="heading-form">
-                            <h1>Contact</h1>
-                        </div>
+                <div class="heading-form">
+                    <h1>Contact</h1>
+                </div>
+                <form action="" class="form">
                         <div class="contact-form">
                             <input name="fName" type="text" placeholder="First Name">
                             <input name="lName" type="text" placeholder="Last Name">
