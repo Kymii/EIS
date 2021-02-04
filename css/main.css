@@ -428,8 +428,9 @@ p {
         color: var(--acid-green);
     }
 
-    .nav-desktop.active {
-        color: red;
+    .active {
+       background-color: red;
+       padding: 10px;
     }
 
     .header .desktop-menu-container button {
