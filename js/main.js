@@ -2,7 +2,23 @@ const mobile_menu_open_btn = document.querySelector('.open-nav');
 const mobile_menu_close_btn = document.querySelector('.close-nav');
 const nav = document.querySelector('.mobile');
 let counter = 1;
+const header = document.getElementById('header-container');
 showTestimonials(counter);
+window.onscroll = function() {
+    fixHeader();
+}
+
+// create fixed header on scroll
+const sticky = header.offsetTop;
+
+const fixHeader = () => {
+    if(window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
+    }
+}
+
 
 // show mobile menu 
 
