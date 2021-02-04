@@ -361,6 +361,11 @@ p {
     margin: auto;
 }
 
+.active {
+    background-color: red;
+    padding: 10px;
+ }
+
 
 /* tablet media queries  */
 
@@ -428,10 +433,6 @@ p {
         color: var(--acid-green);
     }
 
-    .active {
-       background-color: red;
-       padding: 10px;
-    }
 
     .header .desktop-menu-container button {
         color: white;
