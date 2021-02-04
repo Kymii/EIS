@@ -10,6 +10,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --blue-sapphire: #05668D;
     --steel-blue: #427AA1;
@@ -61,7 +65,7 @@ p {
     display: none;
 }
 
- .visible {
+.visible {
      z-index: 3;
     width: 100vw;
     height: 100vh;
@@ -81,11 +85,20 @@ p {
     z-index: 4;
 }
 
+.call {
+    cursor: pointer;
+}
+
 .header {
    text-align: center; 
    background-color: var(--blue-sapphire);
-   height: 85px;
+   height: 105px;
 }
+
+.desktop-menu-container {
+    display: none;
+}
+
 
 .eis-logo {
     margin-top: 10px;
@@ -103,6 +116,11 @@ p {
 }
 
 /* home styles  */
+
+
+#home {
+    min-height: 800px;
+}
 
 .home-image-container,
 .home-paragraph {
@@ -367,7 +385,11 @@ p {
 
 /* desktop media queries  */
 
-@media(min-width: 1024px) {
+@media(min-width: 1023px) {
+
+    .desktop-menu-container {
+        display: block;
+    }
 
     .body {
         font-size: 18px;
@@ -393,12 +415,24 @@ p {
         padding: 10px;
     }
 
-    .header ul li a {
-        color: white;
-        font-size: 18px;
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 5;
+        transition: 0.3s top ease;
+    }
+    
+    .main {
+        padding-top: 5px;
     }
 
-    .header ul li a:hover {
+    .nav-links-d {
+        color: white;
+        font-size: 20px;
+    }
+
+    .nav-links-d:hover {
         color: var(--acid-green);
     }
 
@@ -420,8 +454,8 @@ p {
     }
 
     .heading-one {
-        font-size: 72px;
-        margin: 5% 0px;
+        font-size: 52px;
+        margin: 2% 0px;
     }
 
     .home-image-container{
@@ -430,12 +464,15 @@ p {
 
     .home-image {
         width: 100%;
-        height: 90%;
+        height: 80%;
+        text-align: center;
+        margin-top: 60px;
     }
 
     .home-paragraph {
-        margin-bottom: 100px;
+        margin-bottom: 40px;
         line-height: 149.4%;
+        font-size: 18px;
     }
 
     .greeting {
@@ -490,6 +527,10 @@ p {
 
     .testimonial {
         width: 40vw;
+    }
+
+    .heading-form {
+        font-size: 72px;
     }
 
     .contact-form {
