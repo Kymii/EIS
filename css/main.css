@@ -115,12 +115,6 @@ p {
     padding-top: 20px;
 }
 
-/* home styles  */
-
-
-/* #home {
-    min-height: 800px;
-} */
 
 .home-image-container,
 .home-paragraph {
@@ -424,15 +418,19 @@ p {
         transition: 0.3s top ease;
     }
 
-    .nav-links-d {
+    .nav-desktop {
         color: white;
         font-size: 20px;
     }
 
-    .nav-links-d:hover {
+    
+    .nav-desktop:hover {
         color: var(--acid-green);
     }
 
+    .nav-desktop.active {
+        color: red;
+    }
 
     .header .desktop-menu-container button {
         color: white;
@@ -542,7 +540,7 @@ p {
     }
 
     .heading-form {
-        font-size: 72px;
+        font-size: 32px;
     }
 
     .contact-form {

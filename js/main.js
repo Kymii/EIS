@@ -1,9 +1,13 @@
 const mobile_menu_open_btn = document.querySelector('.open-nav');
 const mobile_menu_close_btn = document.querySelector('.close-nav');
 const nav = document.querySelector('.mobile');
-let counter = 1;
 const header = document.getElementById('header-container');
+let counter = 1;
+
+
+
 showTestimonials(counter);
+
 window.onscroll = function() {
     fixHeader();
 }
@@ -79,3 +83,5 @@ function showTestimonials (n) {
 
     testimonials[counter - 1].style.display = 'flex';
 }
+
+
