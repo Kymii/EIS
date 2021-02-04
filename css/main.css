@@ -118,9 +118,9 @@ p {
 /* home styles  */
 
 
-#home {
+/* #home {
     min-height: 800px;
-}
+} */
 
 .home-image-container,
 .home-paragraph {
@@ -383,6 +383,7 @@ p {
     }
 }
 
+
 /* desktop media queries  */
 
 @media(min-width: 1023px) {
@@ -423,10 +424,6 @@ p {
         transition: 0.3s top ease;
     }
 
-    .sticky + .main {
-        padding-top: 100px;
-    }
-
     .nav-links-d {
         color: white;
         font-size: 20px;
@@ -436,18 +433,6 @@ p {
         color: var(--acid-green);
     }
 
-    .nav-color {
-        color: var(--acid-green);
-    }
-
-    .nav-line {
-        position: absolute;
-        left: 200px;
-        width: 800px;
-        height: 2px;
-        background-color: var(--acid-green);
-        z-index: 7;
-    }
 
     .header .desktop-menu-container button {
         color: white;
@@ -467,7 +452,7 @@ p {
     }
 
     .heading-one {
-        font-size: 52px;
+        font-size: 32px;
         margin: 2% 0px;
     }
 
@@ -476,7 +461,7 @@ p {
     }
 
     .home-image {
-        width: 100%;
+        width: 90%;
         height: 80%;
         text-align: center;
         margin-top: 60px;
@@ -486,25 +471,35 @@ p {
         margin-bottom: 40px;
         line-height: 149.4%;
         font-size: 18px;
+        width: 90%;
     }
 
     .greeting {
         grid-area: info;
         padding: 20px;
         margin: 0px 40px;
-        height: 100vh;
+        position: relative;
+        top: 60px;
     }
 
     .appointment-btn,
     .form-submit {
         width: 397px;
-        height: 69px;
+        height: 49px;
         font-size: 24px
+    }
+
+    #products {
+        padding-top: 150px;
     }
 
     .card-desktop-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    #about {
+        padding-top: 150px;
     }
 
     .about-grid {
@@ -531,6 +526,10 @@ p {
 
     #para-two{
         grid-area: text2;
+    }
+
+    #testimonials {
+        padding-top: 150px;
     }
 
     .testimonials-container {
