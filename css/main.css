@@ -422,9 +422,9 @@ p {
         z-index: 5;
         transition: 0.3s top ease;
     }
-    
-    .main {
-        padding-top: 5px;
+
+    .sticky + .main {
+        padding-top: 100px;
     }
 
     .nav-links-d {
@@ -434,6 +434,19 @@ p {
 
     .nav-links-d:hover {
         color: var(--acid-green);
+    }
+
+    .nav-color {
+        color: var(--acid-green);
+    }
+
+    .nav-line {
+        position: absolute;
+        left: 200px;
+        width: 800px;
+        height: 2px;
+        background-color: var(--acid-green);
+        z-index: 7;
     }
 
     .header .desktop-menu-container button {
