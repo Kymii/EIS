@@ -147,13 +147,21 @@ p {
 
 .appointment-btn,
 .form-submit {
-    color: white;
-    background-color: var(--acid-green);
     border: none;
     border-radius: 20px;
     width: 197px;
     height: 39px;
     font-size: 16px;
+}
+
+.appointment-btn {
+    color: white;
+    background-color: var(--blue-sapphire);
+}
+
+.form-submit {
+    background-color: white;
+    color: var(--blue-sapphire);
 }
 
 /* product cards  */
@@ -423,23 +431,24 @@ p {
     }
 
     .active {
-        background-color: var(--acid-green);
+        color: var(--blue-sapphire);
+        background-color: white;
         padding: 10px;
         border-radius: 5px;
      }
     
     .nav-desktop:hover {
-        color: var(--alice-blue);
+        color: var(--maximum-green);
     }
 
     .header .desktop-menu-container button {
-        color: white;
-        background-color: var(--acid-green);
+        color: var(--blue-sapphire);
+        background-color: white;
         border: none;
-        border-radius: 20px;
-        width: 97px;
+        border-radius: 10px;
+        width: 107px;
         height: 39px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     #home {
