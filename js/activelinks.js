@@ -1,4 +1,4 @@
-const menu = document.querySelectorAll('.nav-desktop');
+
 const links = document.querySelectorAll('.nav-desktop');
 
 for (const link of links) {
