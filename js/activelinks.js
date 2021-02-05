@@ -1,11 +1,8 @@
-const menu = document.querySelectorAll('.nav-desktop');
 const links = document.querySelectorAll('.nav-desktop');
 
 for (const link of links) {
     link.addEventListener('click', function() {
-        link.classList.remove('active');
+        links.forEach((Link)=>Link.classList.remove('active'));
         link.classList.add('active');
     })
-
 }
-
