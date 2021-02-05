@@ -361,11 +361,6 @@ p {
     margin: auto;
 }
 
-.active {
-    background-color: red;
-    padding: 10px;
- }
-
 
 /* tablet media queries  */
 
@@ -428,11 +423,15 @@ p {
         font-size: 20px;
     }
 
+    .active {
+        background-color: var(--acid-green);
+        padding: 10px;
+        border-radius: 5px;
+     }
     
     .nav-desktop:hover {
-        color: var(--acid-green);
+        color: var(--alice-blue);
     }
-
 
     .header .desktop-menu-container button {
         color: white;

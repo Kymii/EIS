@@ -1,10 +1,11 @@
+const menu = document.querySelectorAll('.nav-desktop');
+const links = document.querySelectorAll('.nav-desktop');
 
-const location = location.href;
-const link = document.querySelectorAll('a');
-const menuLength = link.length;
+for (const link of links) {
+    link.addEventListener('click', function() {
+        link.classList.remove('active');
+        link.classList.add('active');
+    })
 
-for (let i = 0; i < menuLength; i++) {
-    if(link[i].href === location) {
-        link[i].className = "active";
-    }
 }
+
