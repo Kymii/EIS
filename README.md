@@ -22,3 +22,7 @@ Goals:
           Use more Javascript
 
           Learn Jquery
+
+sources I used for this project:
+https://dev.to/chaoocharles/creating-a-testimonials-section-with-a-slideshow-using-pure-html-css-and-javascript-4447
+https://forum.freecodecamp.org/t/active-navigation-bar-scroll/332875
