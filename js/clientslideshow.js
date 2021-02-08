@@ -8,16 +8,16 @@ document.querySelector(".previous").addEventListener('click', () => {
     countTestimonials(-1);
 });
 
-// clicking next wil ladd 1 to counter 
+// clicking next will add 1 to counter 
 
 document.querySelector(".next").addEventListener('click', () => {
     countTestimonials(1);
 });
 
-// subtract or add to counter depending on which button is clicked 
+// subtract or add to counter depending on which arrow(left or right) is clicked 
 
-function countTestimonials (t) {
-    showTestimonials(counter += t);
+function countTestimonials (c) {
+    showTestimonials(counter += c);
 }
 
 // slideshow functionality 
