@@ -1,3 +1,6 @@
+// tutorial source 
+// https://dev.to/chaoocharles/creating-a-testimonials-section-with-a-slideshow-using-pure-html-css-and-javascript-4447
+
 let counter = 1;
 showTestimonials(counter);
 
