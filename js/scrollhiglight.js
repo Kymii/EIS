@@ -7,9 +7,7 @@ window.addEventListener("scroll", event => {
     main_links.forEach(link => {
         let section = document.querySelector(link.hash); //loop through each link and assign the sectin associated
 
-        if (
-            section.offsetTop <= top && section.offsetTop + section.offsetHeight > top
-        ) {
+        if (section.offsetTop <= top && section.offsetTop + section.offsetHeight > top) {
             link.classList.add('active');
         } else {
             link.classList.remove('active');
