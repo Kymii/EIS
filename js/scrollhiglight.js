@@ -1,3 +1,6 @@
+// source help for functionality 
+// https://forum.freecodecamp.org/t/active-navigation-bar-scroll/332875
+
 let main_links = document.querySelectorAll(".nav-desktop"); //grab links we want to change
 let main_sections = document.getElementsByTagName('section'); // grab sections 
 
