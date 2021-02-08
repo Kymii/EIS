@@ -1,6 +1,7 @@
 const mobile_menu_open_btn = document.querySelector('.open-nav');
 const mobile_menu_close_btn = document.querySelector('.close-nav');
 const nav = document.querySelector('.mobile');
+const header = document.querySelector('#header-container');
 
 // show mobile menu 
 
@@ -8,6 +9,7 @@ mobile_menu_open_btn.addEventListener('click', () => {
     nav.classList.add('visible');
     mobile_menu_close_btn.style.display = "block";
     mobile_menu_open_btn.style.display = "none";
+    header.style.display = 'none';
 });
 
 // hide mobile menu 
@@ -16,12 +18,14 @@ mobile_menu_close_btn.addEventListener('click', () => {
     nav.classList.remove('visible');
     mobile_menu_close_btn.style.display = 'none';
     mobile_menu_open_btn.style.display = 'block';
+    header.style.display = 'block';
 });
 
 nav.addEventListener('click', () => {
     nav.classList.remove('visible');
     mobile_menu_close_btn.style.display = 'none';
     mobile_menu_open_btn.style.display = 'block';
+    header.style.display = 'block';
 });
 
 

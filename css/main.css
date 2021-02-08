@@ -63,23 +63,25 @@ p {
     transform: scale(0);
     overflow: hidden;
     display: none;
+    transition: all 0.5s ease;
 }
 
 .visible {
-     z-index: 3;
+    z-index: 3;
     width: 100vw;
     height: 100vh;
-    display: block;
+    display: inline-block;
     position: fixed;
     opacity: .8;
     transform: scale(1);
+    transition-duration: 0.5s;
 }
 
 .close-nav {
     color: var(--acid-green);
     opacity: 1;
     position: fixed;
-    top: 105px;
+    top: 25px;
     right: 10px;
     display: none;
     z-index: 4;
