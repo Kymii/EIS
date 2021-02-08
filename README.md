@@ -11,11 +11,11 @@ As with any project there was a lot of research + trial and error with the codin
 
 I learned:
 
-Be careful with variable names, make them unique and mean something or say what they do. For example, instead of header, in a function that hides the header maybe name it "hidden_header".
+          Be careful with variable names, make them unique and mean something or say what they do. For example, instead of header, in a function that hides the header maybe name it "hidden_header".
 
-Keep code as clean as possible, clearly seperate code that covers seperate functionalities.
+          Keep code as clean as possible, clearly seperate code that covers seperate functionalities.
 
-Sections and containers are really helpful on a landing page when you want to modify the style.
+          Sections and containers are really helpful on a landing page when you want to modify the style.
 
 Goals:
 
