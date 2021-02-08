@@ -21,15 +21,15 @@ for (item of items) {
 const mobile_items = ['Home', 'Products', 'About', 'Testimonials', 'Contact'];
 
 for (item of mobile_items) {
-    const newItem = document.createElement('li'); //create new list node
-    const newLink = document.createElement('a'); // create new link node
+    const newItem = document.createElement('li'); 
+    const newLink = document.createElement('a'); 
 
-    const section_name = document.createTextNode(item); //grab each section name from the list 
+    const section_name = document.createTextNode(item); 
 
-    newLink.appendChild(section_name); // append the section to a link
-    newLink.setAttribute('href', `#${item}`.toLowerCase()); // set the href
-    newLink.classList.add('nav-links'); // add the class
-    newItem.appendChild(newLink); // append link to new menu item
+    newLink.appendChild(section_name); 
+    newLink.setAttribute('href', `#${item}`.toLowerCase());
+    newLink.classList.add('nav-links'); 
+    newItem.appendChild(newLink); 
 
-    document.querySelector(".mobile_menu").appendChild(newItem); // append UL with new list items
+    document.querySelector(".mobile_menu").appendChild(newItem);
 };
