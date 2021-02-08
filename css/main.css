@@ -393,7 +393,7 @@ p {
 @media(min-width: 1023px) {
 
     .desktop-menu-container {
-        display: block;
+        display: flex;
     }
 
     .body {
