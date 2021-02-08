@@ -439,6 +439,10 @@ p {
         padding: 10px;
         border-radius: 5px;
      }
+
+     .current {
+         color: var(--acid-green);
+     }
     
     .nav-desktop:hover {
         color: var(--maximum-green);
@@ -459,6 +463,7 @@ p {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
         "info info img img";
+        padding-top: 50px;
     }
 
     .heading-one {
@@ -471,10 +476,10 @@ p {
     }
 
     .home-image {
-        width: 90%;
+        width: 70%;
         height: 80%;
         text-align: center;
-        margin-top: 60px;
+        margin-top: 100px;
     }
 
     .home-paragraph {
@@ -500,7 +505,7 @@ p {
     }
 
     #products {
-        padding-top: 150px;
+        padding-top: 200px;
     }
 
     .card-desktop-grid {
@@ -544,7 +549,7 @@ p {
 
     .testimonials-container {
         min-height: 50vh;
-        padding-bottom: 5%;
+        padding-bottom: 10%;
     }
 
     .testimonial {
@@ -562,6 +567,10 @@ p {
         align-items: center;
         margin: auto;
         max-width: 600px;
+    }
+
+    .form-container {
+        padding: 150px;
     }
 
     #message {
