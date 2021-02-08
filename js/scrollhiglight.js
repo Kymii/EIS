@@ -1,5 +1,5 @@
-let main_links = document.querySelectorAll(".nav-desktop"); //select links we want to change
-let main_sections = document.getElementsByTagName('section'); // select sections 
+let main_links = document.querySelectorAll(".nav-desktop"); //grab links we want to change
+let main_sections = document.getElementsByTagName('section'); // grab sections 
 
 window.addEventListener("scroll", event => {
     let top = window.scrollY + 105; 
