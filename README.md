@@ -19,6 +19,6 @@ I learned:
 
 Goals:
 
-Use more Javascript
+          Use more Javascript
 
-Learn Jquery
+          Learn Jquery
